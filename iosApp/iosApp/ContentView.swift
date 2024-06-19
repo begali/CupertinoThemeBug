@@ -2,7 +2,7 @@ import UIKit
 import SwiftUI
 import ComposeApp
 
-//When returning UINavigationController from makeUIViewController dosn't work
+//When returning UINavigationController from makeUIViewController doesn't work
 struct ComposeView: UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> UINavigationController {
         let rootController = MainViewControllerKt.MainViewController()
